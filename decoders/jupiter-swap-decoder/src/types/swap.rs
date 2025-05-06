@@ -113,7 +113,6 @@ pub enum Swap {
     MoonshotWrappedBuy,
     MoonshotWrappedSell,
     StabbleStableSwap,
-    StabbleStableSwapV2,
     StabbleWeightedSwap,
     Obric {
         x_to_y: bool,
@@ -151,4 +150,15 @@ pub enum Swap {
     PumpdotfunAmmBuy,
     PumpdotfunAmmSell,
     Gamma,
+    MeteoraDlmmSwapV2,
+    Woofi,
+    MeteoraDammV2,
+    MeteoraDynamicBondingCurveSwap,
+    StabbleStableSwapV2,
+    StabbleWeightedSwapV2,
+    RaydiumLaunchlabBuy {
+        share_fee_rate: u64,
+    },
+    BoopdotfunWrappedBuy,
+    BoopdotfunWrappedSell,
 }
