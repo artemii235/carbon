@@ -113,6 +113,7 @@ pub enum Swap {
     MoonshotWrappedBuy,
     MoonshotWrappedSell,
     StabbleStableSwap,
+    StabbleStableSwapV2,
     StabbleWeightedSwap,
     Obric {
         x_to_y: bool,
