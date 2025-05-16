@@ -4,7 +4,7 @@ use {
 };
 
 #[derive(
-    CarbonDeserialize, Debug, serde::Serialize, serde::Deserialize, PartialEq, Eq, Clone, Hash,
+    CarbonDeserialize, Debug, serde::Serialize, serde::Deserialize, PartialEq, Eq, Clone, Hash, borsh::BorshSerialize
 )]
 #[carbon(discriminator = "0xc1209b3341d69c81")]
 pub struct SharedAccountsRoute {

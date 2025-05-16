@@ -4,7 +4,7 @@ use {
 };
 
 #[derive(
-    CarbonDeserialize, Debug, serde::Serialize, serde::Deserialize, PartialEq, Eq, Clone, Hash,
+    CarbonDeserialize, Debug, serde::Serialize, serde::Deserialize, PartialEq, Eq, Clone, Hash, borsh::BorshSerialize
 )]
 #[carbon(discriminator = "0xe517cb977ae3ad2a")]
 pub struct Route {

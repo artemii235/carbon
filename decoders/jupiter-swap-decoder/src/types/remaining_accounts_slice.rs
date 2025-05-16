@@ -4,7 +4,7 @@ use {
 };
 
 #[derive(
-    CarbonDeserialize, Debug, serde::Serialize, serde::Deserialize, PartialEq, Eq, Clone, Hash,
+    CarbonDeserialize, Debug, serde::Serialize, serde::Deserialize, PartialEq, Eq, Clone, Hash, borsh::BorshSerialize
 )]
 pub struct RemainingAccountsSlice {
     pub accounts_type: AccountsType,
